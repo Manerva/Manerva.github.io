@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #fff;
+}
+
+body{
+    background: #29294D;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* first */
+.main-left-content .first-block-content{
+    display: flex;
+    width: 640px;
+    height: 523px;
+    background: #1E1E2C;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.main-left-content .first-block-content .my-photo{
+    width: 104px;
+    height: 104px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.main-left-content .first-block-content .text-info{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.main-left-content .first-block-content .text-info span{
+    display: block;
+    font-size: 15px;
+}  
+
+.main-left-content .first-block-content .my-full-skills-content{
+    position: absolute;
+    margin-top: 220px;
+    display: flex;
+    margin-left: 120px;
+}
+
+.main-left-content .first-block-content .my-full-skills-content svg{
+    display: block;
+    margin: auto;
+}
+
+.main-left-content .first-block-content .my-full-skills-content .block-python{
+    display: flex;
+}
+
+.main-left-content .first-block-content .my-full-skills-content .percent{
+    position: absolute;
+    top: 50px;
+    margin-left: 49px;
+    background: linear-gradient(135deg, #273AE5 0%, #5464F1 56%, #4B3DE7 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+}
+
+.main-left-content .first-block-content .my-full-skills-content .block-python .name{
+    position: absolute;
+    top: 111px;
+    left: 35px;
+    background: linear-gradient(135deg, #273AE5 0%, #5464F1 56%, #4B3DE7 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+
+.main-left-content .first-block-content .my-full-skills-content .block-web .name{
+    position: absolute;
+    top: 111px;
+    left: 148px;
+    background: linear-gradient(135deg, #273AE5 0%, #5464F1 56%, #4B3DE7 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+.main-left-content .first-block-content .my-full-skills-content .block-flutter .name{
+    position: absolute;
+    top: 111px;
+    left: 295px;
+    background: linear-gradient(135deg, #273AE5 0%, #5464F1 56%, #4B3DE7 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+
+.main-second-block{
+    display: flex;
+}
+
+/* second */
+.main-left-content .second-block-content{
+    display: flex;
+    width: 295px;
+    height: 258px;
+    background: #1E1E2C;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+/* third */
+.main-left-content .third-block-content{
+    display: flex;
+    width: 295px;
+    height: 258px;
+    background: #1E1E2C;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.main-left-content .third-block-content img{
+    border-radius: 15px;
+}
+
+
+/* right */
+
+.main-right-content .third-block-content{
+    display: flex;
+    width: 640px;
+    height: 258px;
+    background: #1E1E2C;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.main-right-content .second-block-content{
+    display: flex;
+    width: 640px;
+    height: 550px;
+    background: #1E1E2C;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+
+.main-right-content .third-block-content .title {
+    margin: 20px;
+}
+
+.main-right-content .third-block-content .title::after{
+    content: "";
+    background: #5257EE;
+    border-radius: 25px;
+    display: block;
+    height: 4px;
+    margin-top: 4px;
+    width: 40px;
+}
+
+.main-right-content .third-block-content .block-social-main-third{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 20px;
+    display: grid;
+}
+
+.main-right-content .third-block-content .block-social-main-third .block-social{
+    display: ruby;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.main-right-content .third-block-content .block-social-main-third .block-social h2 {
+    position: relative;
+    bottom: 15px;
+    margin-left: 15px;
+}
+
+
+.main-right-content .second-block-content .title {
+    margin: 20px;
+}
+
+.main-right-content .second-block-content .title::after{
+    content: "";
+    background: #5257EE;
+    border-radius: 25px;
+    display: block;
+    height: 4px;
+    margin-top: 4px;
+    width: 40px;
+}
+
+
+.main-right-content .block-social-main-second {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 595px;
+    display: grid;
+    
+}
+
+.main-right-content .third-block-content .block-social-main-second .block-social{
+    display: ruby;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.main-right-content .third-block-content .block-social-main-second .block-social h2{
+    position: relative;
+    bottom: 15px;
+    margin-left: 15px;
+}
+.main-right-content .third-block-content .main-content-social{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+/* Медиа-запросы для адаптации под различные экраны */
+@media(max-width: 1400px){
+    main{
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .main-left-content, .main-right-content{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
